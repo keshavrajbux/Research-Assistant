@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Assistant</title>
+    <style>
+        body {
+            background-color: #f3f4f6;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h2>Research Assistant</h2>
+    <form action="/" method="post">
+        Enter your research question:
+        <input type="text" name="question">
+        <input type="submit" value="Search">
+    </form>
+    {% if summary %}
+    <h2>Research Summary</h2>
+    <p>{{ summary }}</p>
+    <a href="/">Back to search</a>
+    {% endif %}
+    <img src="/static/background.jpg" alt="Background Image">
+</body>
+</html>
