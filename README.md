@@ -16,7 +16,9 @@ With Metaphor’s API, OpenAI’s API, based on user’s input relevant sources 
 
 4. Why you’re interested in Metaphor: Metaphor’s search algorithm with a futuristic view to build more modern models that would make an impact has pushed me to apply here. In a start-up environment, with an assigned role there is also an opportunity to blend into other roles which would be a fresh challenge to explore beyond boundaries.
 
-#Not a part of the assesment
+#Not a part of the assessment
+
 How to run?
 Save researchassistant.py file in a new folder and name it as metaphor. In the metaphor folder, create a new folder called templates and save the index.html file. Again create a new folder called static and save the background.jpg file. 
+
 After the above steps are completed, run the researchassistant.py file on command prompt. It should provide you a local host url. Open the link, and you should be seeing the webpage.
