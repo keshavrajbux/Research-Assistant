@@ -9,10 +9,10 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Set up OpenAI API key
-openai.api_key = "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"
+openai.api_key = "YOUR OPEN AI KEY"
 
 # Set up Metaphor API key
-metaphor_key = "fd616880-e3ac-4c24-9e24-78f3cd541b36"
+metaphor_key = "METAPHOR API KEY"
 metaphor = Metaphor(metaphor_key)
 
 app = Flask(__name__)
